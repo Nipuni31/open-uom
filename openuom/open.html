@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <h1 style="text-align: center;" >Take Away<br>Super</h1>
+      <link rel="style_sheet" href="style.css">
+      <style>
+        h1{
+          color: rgb(13, 71, 31);
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-style: inherit;
+          font-weight: 900;
+          background-color: greenyellow;
+          padding: 20px;
+          margin-bottom: 0;
+        }
+        ul{
+          list-style-type: none;
+          padding: 20px;
+          background-color: green;
+          margin-top: 0;
+          padding: 20px;
+        }
+        li{
+          display: inline;
+        }
+        li a{
+          color: white;
+          text-align: center;
+          padding: 10px;
+          text-decoration: none;
+        }
+        li a:hover{
+          background-color: brown;
+        }
+        .ul input[type=text]{
+          padding: 6px;
+        }
+        .header{
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-size: 4rem;
+          text-align: center;
+          color: green;
+          background-image: -webkit-linear-gradient(92deg,green,yellow);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -webkit-animation: hue 10s infinite linear;
+        }
+        @-webkit-keyframes hue{
+          from{
+            -webkit-filter: hue-rotate(0deg);
+          }
+          to{
+            -webkit-filter: hue-rotate(-360deg);
+          }
+        }
+        table{
+          padding-left: 100px;
+        }
+       table,th,td{
+        border:1px solid black;
+        border-collapse: collapse;
+       }
+       
+      </style>
+    </head>
+    <body>
+      <ul>
+        <li><a href="">shop</a></li>
+        <li><a href="">items</a></li>
+        <li><a href="">Discounts</a></li>
+        <li><a href="">Bakery</a></li>
+        <input type="text" placeholder="search..." >
+       </ul>
+       <center><img src="1st image.jpg" width="500px" height="300px"></center>
+       <h3><b>you can buy these items from our outlets...</b></h3>
+        <ol>
+          <li>Vegetables,</li>
+          <li>fruit,</li>
+          <li>beverages,</li>
+          <li>bakery items,</li>
+          <li>stationaries...</li>
+        </ol>
+        <h2 class="header">shop now</h2>
+        <center>
+        <table class="table">
+          <tr>
+            <th style="width: 100px;">Item</th>
+            <th style="width: 100px;">price</th>
+            <th>Discount</th>
+            <th>Available/Not available</th>
+          </tr>
+          <tr>
+            <td>Shampoo</td>
+            <td>Rs 20.00</td>
+            <td>10%</td>
+            <td><img src="tick.png"></td>
+          </tr>
+          <tr>
+            <td>Soap</td>
+            <td>Rs 30.00</td>
+            <td>10%</td>
+            <td><img src="cross.png"></td>
+          </tr>
+          <tr>
+            <td>Vegetables</td>
+            <td>Rs 20.00</td>
+            <td>10%</td>
+            <td><img src="tick.png"></td>
+          </tr>
+          <tr>
+            <td>fruiuts</td>
+            <td>Rs 20.00</td>
+            <td>10%</td>
+            <td><img src="tick.png"></td>
+          </tr>
+          <tr>
+            <td>stationaries</td>
+            <td>Rs 20.00</td>
+            <td>20%</td>
+            <td><img src="tick.png"></td>
+          </tr>
+        </table>
+      </center><br>
+      <script language="javascript">
+        function clickevent(){
+          var x=document.createElement("img");
+          img.setAttribute("src","shop.jpg");
+        }
+
+      </script>
+      <form>
+        <input type="buton" onclick="clickevent()" value="click this button" />
+      </form>
+    </body>
+</html>
